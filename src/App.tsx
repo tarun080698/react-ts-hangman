@@ -45,7 +45,7 @@ function App() {
     return () => {
       document.removeEventListener("keypress", handler);
     };
-  }, [guessedLetters]);
+  }, [guessedLetters, addGuessedLetter]);
 
   return (
     <div className="App">
