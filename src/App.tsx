@@ -4,6 +4,8 @@ import HangmanDrawing from "./HangmanDrawing";
 import HangmanWord from "./HangmanWord";
 import UserKeyboard from "./UserKeyboard";
 
+// Added a comment line 1
+
 function App() {
   const resetWord = () => {
     setGuessedLetters([]);
